@@ -6,7 +6,7 @@ description: >
 baseurl: ""
 url: ""
 twitter_username:
-github_username:  lmstroop
+github_username:  ls724310
 # Build Settings
 sass:
   sass_dir: _sass
