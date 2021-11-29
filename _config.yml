@@ -1,0 +1,26 @@
+# Site Settings
+title: Portfolio
+email: ls724310@gmail.com
+description: >
+  A collection creations and captured moments by Levi Stroop.
+baseurl: ""
+newbaseurl: "/"
+url: ""
+twitter_username:
+github_username:  ls724310
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
+navigation:
+- text: About
+  url: /about/
+- text: Projects
+  url: /projects/
+  layout: project
+- text: Crafts
+  url: /crafts/
+- text: Pets
+  url: /pets/

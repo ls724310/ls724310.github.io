@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div id="cta">
+  <h1>Hello World!</h1>
+</div>
+
+<div id="po-po-po-post">
+  {% for post in site.posts limit:4 %}
+    {{ post }}
+  {% endfor %}
+</div>

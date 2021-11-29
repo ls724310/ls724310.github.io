@@ -1,0 +1,15 @@
+# Site Settings
+title: Start Jekyll
+email: ls724310@gmail.com
+description: >
+  A guide to getting started with Jekyll.
+baseurl: ""
+url: ""
+twitter_username:
+github_username:  lmstroop
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
