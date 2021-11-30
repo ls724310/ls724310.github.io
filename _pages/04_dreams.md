@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Pets
-permalink: /pets/
+title: Dreams
+permalink: /dreams/
 ---
 
 <div id="po-po-po-post">
-  {% for post in site.categories.Pets %}
+  {% for post in site.categories.Dreams %}
     {{ post }}
   {% endfor %}
 </div>
