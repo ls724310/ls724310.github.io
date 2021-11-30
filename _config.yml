@@ -2,7 +2,7 @@
 title: Portfolio
 email: ls724310@gmail.com
 description: >
-  A collection creations and captured moments by Levi Stroop.
+  A collection of creations and captured moments by Levi Stroop.
 baseurl: ""
 newbaseurl: "/"
 url: ""
@@ -20,7 +20,7 @@ navigation:
 - text: Projects
   url: /projects/
   layout: project
-- text: Crafts
-  url: /crafts/
-- text: Pets
-  url: /pets/
+- text: Photography
+  url: /photography/
+- text: Dreams
+  url: /dreams/

@@ -2,7 +2,7 @@
 layout: post
 title:  "Tree"
 date:   2018-02-05 00:05:00
-categories: Crafts
+categories: Photography
 image: /assets/img/tree_01.jpg
 ---
 
