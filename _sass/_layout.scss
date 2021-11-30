@@ -1,0 +1,420 @@
+body {
+	margin: 0;
+	color: $font-color;
+	font-family: $font-style;
+	font-size: 1.1em;
+	-webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3 {
+	font-weight: 600;
+	color: $heading-font-color;
+	font-family: $heading-font;
+	line-height: 1.5;
+}
+h1 {
+	color: $font-color;
+	font-size: 2.5em;
+	a,
+	a:visited {
+		text-decoration: none;
+		color: $link-color;
+	}
+}
+h2 {
+	font-size: 2em;
+}
+a,
+a:visited {
+	color: $link-color;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: $link-hover-color;
+	text-decoration: none;
+}
+main {
+	padding: 0;
+	margin: 0 auto;
+}
+time {
+	color: #898989;
+}
+.container {
+	margin: 0 auto;
+}
+
+
+
+/* Header */
+
+header#main_header {
+	background: $header;
+	width: 100%;
+	height: 60px;
+	div.container {
+		div.logo {
+			float: left;
+			height: 42.5px;
+			padding: 7.5px 0px 0px 15px;
+			img {
+				height: 42.5px;
+			}
+		}
+		nav#main_nav_desktop {
+			float: right;
+			display: none;
+			@media screen and (min-width: 1025px) {
+				display: block;
+			}
+			ul.navigation {
+				list-style: none;
+				margin: 0;
+				li {
+					display: inline-block;
+					padding: 15px;
+					a {
+						text-decoration: none;
+						.current {
+							color: $link-hover-color;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Hamburgesa Icono de Navegación =========================================== */
+#nav-icon1 {
+  width: 40px;
+  height: 40px;
+	float: right;
+  position: relative;
+  margin: 10px 0px 10px 10px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  z-index: 1000;
+	@media screen and (min-width: 1025px) {
+		display: none;
+	}
+}
+
+#nav-icon1 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 25px;
+  background: #282828;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+  z-index: 1000;
+}
+
+#nav-icon1 span:nth-child(1) {
+  top: 15px;
+  left: 7.5px;
+}
+
+#nav-icon1 span:nth-child(2) {
+  top: 23px;
+  left: 7.5px;
+}
+
+#nav-icon1.cross span {
+  background: #8a1913;
+}
+
+#nav-icon1.cross span:nth-child(1) {
+  top: 22px;
+  left: 7.5px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+#nav-icon1.cross span:nth-child(2) {
+  top: 22px;
+  left: 7.5px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+/* Final de la Hamburgesa Icono de Navegación =============================== */
+
+/* Dropdown Menu  Navigation================================================= */
+div#submenu	{
+	width: 100%;
+	height: 100vh;
+	background-color: $link-color;
+	@media screen and (min-width: 768px) {
+		height: 40vh;
+	}
+}
+.submenu {
+	position: absolute;
+	visibility: hidden;
+	top: -800px;
+	transition: top 0.5s,visibility 0.5s, opacity 0.5s linear;
+   -moz-transition: top 0.5s, visibility 0.5s, opacity 0.5s linear;
+   -webkit-transition: top 0.5s, visibility 0.5s, opacity 0.5s linear;
+   z-index: 14;
+	 ul.navigation {
+		 list-style: none;
+		 padding-left: 0;
+		 margin-top: 30%;
+		 @media screen and (min-width: 568px) {
+			margin-top: 10%;
+		 }
+		 @media screen and (min-width: 768px) {
+    	margin-top: 12%;
+		 }
+		 li {
+			 font-size: 2em;
+			 text-align: center;
+			 transition: all 0.2s;
+			 -webkit-transition: all 0.2s;
+			 a {
+				 color: $light;
+			 }
+		 }
+		 a:hover {
+				color: $link-hover-color;
+				transition: all 0.2s;
+				-webkit-transition: all 0.2s;
+		 }
+		 a:active {
+			transform: scale(0.9);
+			transition: all 0.2s;
+			-webkit-transition: all 0.2s;
+		 }
+	 }
+}
+.submenu.open {
+	position: absolute;
+	visibility: visible;
+	z-index: 14;
+  top: 0px;
+	transition: top 0.5s, visibility 0.5s, opacity 0.7s linear;
+   -moz-transition: top 0.5s, visibility 0.5s, opacity 0.7s linear;
+   -webkit-transition: top 0.5s, visibility 0.5s, opacity 0.7s linear;
+}
+/* End of Dropdown Menu  Navigation ========================================= */
+/* End of header stuff ====================================================== */
+
+/* Call to muh fuckin' duty! ...I mean action. Call to action. ============== */
+div#cta {
+	width: 100%;
+	padding: 125px 0;
+	h1 {
+		color: $link-color;
+		text-align: center;
+		margin: 0;
+	}
+}
+/* End of c.t. action. */
+
+/* Footer =================================================================== */
+footer#main_footer {
+	width: 100%;
+	padding: 80px 0;
+	background: $link-color;
+	div.container {
+		h3 {
+			color: $light;
+			text-align: center;
+			padding: 20px 0px;
+			margin: 0;
+		}
+	}
+}
+/* End of Footer ============================================================ */
+
+/* Posts ==================================================================== */
+div#post_it {
+	width: 90%;
+	display: block;
+	margin: 30px 5% 0px 5%;
+	background: #fff;
+	min-height: 500px;
+	vertical-align: top;
+	@media screen and (min-width: 600px) {
+		width: 44.62%;
+		display: inline-block;
+		background: #fff;
+		margin: 30px 2.5% 0px 2.5%;
+	}
+	@media screen and (min-width: 1025px) {
+		width: 22.66%;
+		margin: 30px 1% 0px 1%;
+	}
+	h2 {
+		padding: 10px 10px 0 10px;
+		margin: 0;
+	}
+	time {
+		padding: 0 10px 10px 10px;
+	}
+	p {
+		padding: 0 10px 0 10px;
+	}
+}
+
+/* Posts Homepage */
+div#po-po-po-post {
+	width: 100%;
+	background: #efefef;
+	padding: 0.01px 0 30px 0;
+	img {
+		width: 100%;
+	}
+}
+/* End of Posts stuff ======================================================= */
+
+
+
+/* Shopping Basket ========================================================== */
+div.cart_button {
+	float: right;
+	padding: 7.5px 10px 10px 10px;
+}
+
+.snipcart-add-item {
+	width: 160px;
+	background: $light;
+	color: $link-color;
+	font-size: 0.9em;
+	border: none;
+	border-radius: 40px;
+	line-height: 40px;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-o-transition: all .2s;
+	transition: all .2s;
+}
+
+.snipcart-add-item:hover {
+	@media screen and (min-width: 1025px) {
+		background: #85A185;
+		color: #252C33;
+		transform: scale(1.1);
+		-webkit-transition: all .2s;
+		-moz-transition: all .2s;
+		-o-transition: all .2s;
+		transition: all .2s;
+	}
+}
+
+.snipcart-add-item:active {
+		transform: scale(0.9);
+		-webkit-transition: all .2s;
+		-moz-transition: all .2s;
+		-o-transition: all .2s;
+		transition: all .2s;
+}
+
+div.snip-header {
+	background: $link-color !important;
+	border-bottom: 1px solid $light !important;
+	.snip-header__title {
+		color: $light !important
+	}
+	.snip-header__total {
+		background: $link-color !important;
+		.snip-header__total-label {
+			color: $light !important;
+		}
+		#snipcart-amount {
+			color: $light !important;
+		}
+	}
+}
+
+.snip-layout {
+	color: $font-color !important;
+	.snip-layout__close {
+		color: $light !important;
+	}
+	.snip-table th {
+		border-bottom: 1px solid $light !important;
+	}
+	.snip-table__item {
+		color: $font-color !important;
+	}
+	.snip-product__remove {
+		color: $link-hover-color !important;
+	}
+	.snip-btn--highlight {
+		background: $light !important;
+		color: $link-color !important;
+		border-radius: 40px !important;
+		-webkit-transition: all .2s;
+		-moz-transition: all .2s;
+		-o-transition: all .2s;
+		transition: all .2s;
+	}
+	.snip-btn--highlight:hover {
+		@media screen and (min-width: 1025px) {
+			background: #85A185 !important;
+			color: #252C33 !important;
+			transform: scale(1.1) !important;
+			-webkit-transition: all .2s;
+		  -moz-transition: all .2s;
+		  -o-transition: all .2s;
+		  transition: all .2s;
+		}
+	}
+	.snip-btn--highlight:active {
+			transform: scale(0.9) !important;
+			-webkit-transition: all .2s;
+		  -moz-transition: all .2s;
+		  -o-transition: all .2s;
+		  transition: all .2s;
+	}
+	.snip-btn--left {
+		background: #fff !important;
+		border: 1px solid $light !important;
+		border-radius: 40px !important;
+		color: $link-color !important;
+	}
+	.snip-btn--left:hover {
+		@media screen and (min-width: 1025px) {
+			border: 1px solid #85A185 !important;
+			color: #252C33 !important;
+			transform: scale(1.1) !important;
+			-webkit-transition: all .2s;
+		  -moz-transition: all .2s;
+		  -o-transition: all .2s;
+		  transition: all .2s;
+		}
+	}
+	.snip-btn--left:active {
+			transform: scale(0.9) !important;
+			-webkit-transition: all .2s;
+		  -moz-transition: all .2s;
+		  -o-transition: all .2s;
+		  transition: all .2s;
+	}
+	.snip-footer {
+		background: $link-color !important;
+	}
+}

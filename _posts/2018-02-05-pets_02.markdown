@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Rats on rats."
+date:   2018-02-06 00:03:45
+categories: Pets
+image: /assets/img/rats.jpg
+---
+
+<p>Do you have hungry snakes? There are plenty of rats in the world, but these are African or some shit.</p>

@@ -1,0 +1,12 @@
+---
+layout: default_post
+---
+<div id="post_it">
+  {% if page.layout == 'post' %}
+    <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
+  {% endif %}
+  <h2>{{ page.title }}</h2>
+  <time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
+
+  {{ content }}
+</div>

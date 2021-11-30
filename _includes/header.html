@@ -1,0 +1,80 @@
+<header id="main_header">
+	<div class="container">
+		<div class="logo">
+			<a href="{{site.newbaseurl}}">
+				<img alt="Ant Logo" src="{{site.baseurl}}/assets/img/ant_logo.png">
+			</a>
+		</div>
+		<div class="cart_button">
+			<a href="#" class="snipcart-checkout">
+				<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In  -->
+				<svg version="1.1"
+					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+					 x="0px" y="0px" width="35px" height="35px" viewBox="0 0 18 17" style="enable-background:new 0 0 18 17;" xml:space="preserve">
+				<style type="text/css">
+					.st0{fill:#293038;position:relative;}
+					.st0:hover{fill:#87171B;}
+				</style>
+				<defs>
+				</defs>
+				<path class="st0" d="M17.4,6h-5l-1.8,1.8c-0.5,0.5-1.1,0.7-1.7,0.7c-0.6,0-1.2-0.2-1.7-0.7C6.7,7.4,6.5,6.8,6.5,6.1c0,0,0-0.1,0-0.1
+					H0.6C0.3,6,0,6.3,0,6.6V9h18V6.6C18,6.3,17.7,6,17.4,6z M9.8,7l5.1-5.1c0.2-0.2,0.2-0.6,0-0.8l-0.9-0.9c-0.2-0.2-0.6-0.2-0.9,0
+					L8,5.2C7.5,5.7,7.5,6.5,8,7C8.5,7.5,9.3,7.5,9.8,7z M2.8,16.3C2.9,16.7,3.3,17,3.8,17h10.5c0.4,0,0.8-0.3,0.9-0.7l1.5-6.3H1.3
+					L2.8,16.3z"/>
+				</svg>
+			</a>
+		</div>
+		<nav role="navigation" class="main-nav" id="main_nav">
+			<div id="nav-icon1">
+				<span></span>
+				<span></span>
+			</div>
+		</nav>
+		<div id="submenu" class="submenu">
+			{% unless page.layout == 'front' %}
+	  		<ul class="navigation">
+			    {% for link in site.navigation %}
+			      {% assign current = nil %}
+			      {% if page.url == link.url or page.layout == link.layout %}
+			        {% assign current = 'current' %}
+			      {% endif %}
+
+			      <li class="{% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+			        <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
+			      </li>
+			    {% endfor %}
+			  </ul>
+			{% endunless %}
+		</div>
+
+		<nav id="main_nav_desktop">
+			{% unless page.layout == 'front' %}
+	  		<ul class="navigation">
+			    {% for link in site.navigation %}
+			      {% assign current = nil %}
+			      {% if page.url == link.url or page.layout == link.layout %}
+			        {% assign current = 'current' %}
+			      {% endif %}
+
+			      <li class="{% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+			        <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
+			      </li>
+			    {% endfor %}
+			  </ul>
+			{% endunless %}
+		</nav>
+	</div>
+</header>
+
+		<script>
+			document.getElementById('nav-icon1').onclick = function() {
+			    this.classList.toggle('cross');
+					document.getElementById('submenu').classList.toggle('open');
+			}
+		</script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="M2U1MmU4ZjgtZjMyMi00ODZkLWE3NzUtNzdjZTY4MmYwOGE4NjM2NTM3MDg3MDczNTg1Mjkz" id="snipcart"></script>
+
+		<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />

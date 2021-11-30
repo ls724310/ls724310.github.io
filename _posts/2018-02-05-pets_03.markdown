@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Great picture, Levi."
+date:   2018-02-07 00:03:45
+categories: Pets
+image: /assets/img/dog.jpg
+---
+
+<p>Look at that cute little puppy tongue! Aww, so cute.</p>

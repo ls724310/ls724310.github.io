@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Puppies!!"
+date:   2018-02-06 00:03:45
+categories: Pets
+image: /assets/img/dogs.jpg
+---
+
+<p>More puppies?! No freaking way. Ahh!!</p>
