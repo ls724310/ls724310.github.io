@@ -1,22 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Store Front</title>
-    <description>A sweet store front for a baller seller.
+    <title>Portfolio</title>
+    <description>A collection of creations and captured moments by Levi Stroop.
 </description>
-    <link>http://localhost:4000/jekyll//</link>
-    <atom:link href="http://localhost:4000/jekyll//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 25 Apr 2019 13:49:41 -0400</pubDate>
-    <lastBuildDate>Thu, 25 Apr 2019 13:49:41 -0400</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 23 May 2023 18:46:21 -0400</pubDate>
+    <lastBuildDate>Tue, 23 May 2023 18:46:21 -0400</lastBuildDate>
+    <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>Anything you want</title>
+        <description>&lt;h3&gt;This is a picture.&lt;/h3&gt;
+
+&lt;p&gt;This is text about a picture.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 28 Jan 2020 14:06:00 -0500</pubDate>
+        <link>http://localhost:4000/2020/01/28/anything-you-want.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/28/anything-you-want.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>This is a new post</title>
+        <description>&lt;p&gt;Hello to the world, I hope this works.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 28 Jan 2020 09:55:00 -0500</pubDate>
+        <link>http://localhost:4000/pets/2020/01/28/this-is-a-new-post.html</link>
+        <guid isPermaLink="true">http://localhost:4000/pets/2020/01/28/this-is-a-new-post.html</guid>
+        
+        
+        <category>Pets</category>
+        
+      </item>
     
       <item>
         <title>Project 01</title>
-        <description>&lt;p&gt;Just when you think I've run out of filler text... HA! Nope.&lt;/p&gt;
+        <description>&lt;p&gt;Just when you think I&apos;ve run out of filler text... HA! Nope.&lt;/p&gt;
 </description>
         <pubDate>Mon, 20 Aug 2018 10:25:38 -0400</pubDate>
-        <link>http://localhost:4000/jekyll//projects/2018/08/20/projects_01.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll//projects/2018/08/20/projects_01.html</guid>
+        <link>http://localhost:4000/projects/2018/08/20/projects_01.html</link>
+        <guid isPermaLink="true">http://localhost:4000/projects/2018/08/20/projects_01.html</guid>
         
         
         <category>Projects</category>
@@ -24,92 +50,19 @@
       </item>
     
       <item>
-        <title>*inappropriate flower joke here*</title>
-        <description>&lt;p&gt;Uhh... This is hella good filler text. Seriously... Best in the world.&lt;/p&gt;
+        <title>Tree</title>
+        <description>&lt;p&gt;Just when you think I&apos;ve run out of filler text... HA! Nope.&lt;/p&gt;
 
-&lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;snipcart-add-item&quot; data-item-name=&quot;Tree 4&quot; data-item-price=&quot;50.00&quot; data-item-id=&quot;04&quot; data-item-url=&quot;https://snipcart.com/crafts&quot;&gt;
+&lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;snipcart-add-item&quot; data-item-name=&quot;Tree 1&quot; data-item-price=&quot;50.00&quot; data-item-id=&quot;01&quot; data-item-url=&quot;https://snipcart.com/crafts&quot;&gt;
   Add to cart
 &lt;/button&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 07 Feb 2018 19:03:45 -0500</pubDate>
-        <link>http://localhost:4000/jekyll//crafts/2018/02/07/crafts_04.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll//crafts/2018/02/07/crafts_04.html</guid>
+        <pubDate>Sun, 04 Feb 2018 19:05:00 -0500</pubDate>
+        <link>http://localhost:4000/photography/2018/02/04/photography_01.html</link>
+        <guid isPermaLink="true">http://localhost:4000/photography/2018/02/04/photography_01.html</guid>
         
         
-        <category>Crafts</category>
-        
-      </item>
-    
-      <item>
-        <title>Great picture, Levi.</title>
-        <description>&lt;p&gt;Look at that cute little puppy tongue! Aww, so cute.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 06 Feb 2018 19:03:45 -0500</pubDate>
-        <link>http://localhost:4000/jekyll//pets/2018/02/06/pets_03.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll//pets/2018/02/06/pets_03.html</guid>
-        
-        
-        <category>Pets</category>
-        
-      </item>
-    
-      <item>
-        <title>Puppies!!</title>
-        <description>&lt;p&gt;More puppies?! No freaking way. Ahh!!&lt;/p&gt;
-</description>
-        <pubDate>Mon, 05 Feb 2018 19:03:45 -0500</pubDate>
-        <link>http://localhost:4000/jekyll//pets/2018/02/05/pets_04.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll//pets/2018/02/05/pets_04.html</guid>
-        
-        
-        <category>Pets</category>
-        
-      </item>
-    
-      <item>
-        <title>Rats on rats.</title>
-        <description>&lt;p&gt;Do you have hungry snakes? There are plenty of rats in the world, but these are African or some shit.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 05 Feb 2018 19:03:45 -0500</pubDate>
-        <link>http://localhost:4000/jekyll//pets/2018/02/05/pets_02.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll//pets/2018/02/05/pets_02.html</guid>
-        
-        
-        <category>Pets</category>
-        
-      </item>
-    
-      <item>
-        <title>Oooh, pretty.</title>
-        <description>&lt;p&gt;Have you ever wondered if there are other people, on other planets, doing the stupid shit that we do on Terra?&lt;/p&gt;
-
-&lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;snipcart-add-item&quot; data-item-name=&quot;Tree 3&quot; data-item-price=&quot;50.00&quot; data-item-id=&quot;03&quot; data-item-url=&quot;https://snipcart.com/crafts&quot;&gt;
-  Add to cart
-&lt;/button&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 05 Feb 2018 19:03:45 -0500</pubDate>
-        <link>http://localhost:4000/jekyll//crafts/2018/02/05/crafts_03.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll//crafts/2018/02/05/crafts_03.html</guid>
-        
-        
-        <category>Crafts</category>
-        
-      </item>
-    
-      <item>
-        <title>This is a tree, made of copper.</title>
-        <description>&lt;p&gt;Uhh.......................................................&lt;br /&gt;..............................................................&lt;/p&gt;
-
-&lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;snipcart-add-item&quot; data-item-name=&quot;Tree 2&quot; data-item-price=&quot;50.00&quot; data-item-id=&quot;02&quot; data-item-url=&quot;https://snipcart.com/crafts&quot;&gt;
-  Add to cart
-&lt;/button&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 05 Feb 2018 19:03:45 -0500</pubDate>
-        <link>http://localhost:4000/jekyll//crafts/2018/02/05/crafts_02.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll//crafts/2018/02/05/crafts_02.html</guid>
-        
-        
-        <category>Crafts</category>
+        <category>Photography</category>
         
       </item>
     
@@ -118,41 +71,11 @@
         <description>&lt;p&gt;This is a snake. I am not certain of the breed. I know little about snake identification.&lt;/p&gt;
 </description>
         <pubDate>Sun, 04 Feb 2018 19:05:00 -0500</pubDate>
-        <link>http://localhost:4000/jekyll//pets/2018/02/04/pets_01.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll//pets/2018/02/04/pets_01.html</guid>
+        <link>http://localhost:4000/dreams/2018/02/04/dreams_01.html</link>
+        <guid isPermaLink="true">http://localhost:4000/dreams/2018/02/04/dreams_01.html</guid>
         
         
-        <category>Pets</category>
-        
-      </item>
-    
-      <item>
-        <title>Tree</title>
-        <description>&lt;p&gt;Just when you think I've run out of filler text... HA! Nope.&lt;/p&gt;
-
-&lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;snipcart-add-item&quot; data-item-name=&quot;Tree 1&quot; data-item-price=&quot;50.00&quot; data-item-id=&quot;01&quot; data-item-url=&quot;https://snipcart.com/crafts&quot;&gt;
-  Add to cart
-&lt;/button&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 04 Feb 2018 19:05:00 -0500</pubDate>
-        <link>http://localhost:4000/jekyll//crafts/2018/02/04/crafts_01.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll//crafts/2018/02/04/crafts_01.html</guid>
-        
-        
-        <category>Crafts</category>
-        
-      </item>
-    
-      <item>
-        <title>Project 04</title>
-        <description>&lt;p&gt;Uhh... This is hella good filler text. Seriously... Best in the world.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 04 Feb 2018 19:03:45 -0500</pubDate>
-        <link>http://localhost:4000/jekyll//projects/2018/02/04/projects_04.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll//projects/2018/02/04/projects_04.html</guid>
-        
-        
-        <category>Projects</category>
+        <category>Dreams</category>
         
       </item>
     
