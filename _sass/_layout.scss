@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	color: $font-color;
-	font-family: $font-style;
+	font-family: $copy-font;
 	font-size: 1.1em;
 	-webkit-font-smoothing: antialiased;
 }
@@ -19,7 +19,7 @@ h1 {
 	a,
 	a:visited {
 		text-decoration: none;
-		color: $link-color;
+		color: $dark-purple;
 	}
 }
 h2 {
@@ -27,12 +27,12 @@ h2 {
 }
 a,
 a:visited {
-	color: $link-color;
+	color: $dark-purple;
 	text-decoration: none;
 	font-weight: bold;
 }
 a:hover {
-	color: $link-hover-color;
+	color: $purple;
 	text-decoration: none;
 }
 main {
@@ -51,7 +51,7 @@ time {
 /* Header */
 
 header#main_header {
-	background: $header;
+	background: $light-two;
 	width: 100%;
 	height: 60px;
 	div.container {
@@ -78,7 +78,7 @@ header#main_header {
 					a {
 						text-decoration: none;
 						.current {
-							color: $link-hover-color;
+							color: $purple;
 						}
 					}
 				}
@@ -165,7 +165,7 @@ header#main_header {
 div#submenu	{
 	width: 100%;
 	height: 100vh;
-	background-color: $link-color;
+	background-color: $dark-purple;
 	@media screen and (min-width: 768px) {
 		height: 40vh;
 	}
@@ -198,7 +198,7 @@ div#submenu	{
 			 }
 		 }
 		 a:hover {
-				color: $link-hover-color;
+				color: $purple;
 				transition: all 0.2s;
 				-webkit-transition: all 0.2s;
 		 }
@@ -226,7 +226,7 @@ div#cta {
 	width: 100%;
 	padding: 125px 0;
 	h1 {
-		color: $link-color;
+		color: $dark-purple;
 		text-align: center;
 		margin: 0;
 	}
@@ -237,7 +237,7 @@ div#cta {
 footer#main_footer {
 	width: 100%;
 	padding: 80px 0;
-	background: $link-color;
+	background: $dark-purple;
 	div.container {
 		h3 {
 			color: $light;
@@ -301,7 +301,7 @@ div.cart_button {
 .snipcart-add-item {
 	width: 160px;
 	background: $light;
-	color: $link-color;
+	color: $dark-purple;
 	font-size: 0.9em;
 	border: none;
 	border-radius: 40px;
@@ -333,13 +333,13 @@ div.cart_button {
 }
 
 div.snip-header {
-	background: $link-color !important;
+	background: $dark-purple !important;
 	border-bottom: 1px solid $light !important;
 	.snip-header__title {
 		color: $light !important
 	}
 	.snip-header__total {
-		background: $link-color !important;
+		background: $dark-purple !important;
 		.snip-header__total-label {
 			color: $light !important;
 		}
@@ -361,11 +361,11 @@ div.snip-header {
 		color: $font-color !important;
 	}
 	.snip-product__remove {
-		color: $link-hover-color !important;
+		color: $purple !important;
 	}
 	.snip-btn--highlight {
 		background: $light !important;
-		color: $link-color !important;
+		color: $dark-purple !important;
 		border-radius: 40px !important;
 		-webkit-transition: all .2s;
 		-moz-transition: all .2s;
@@ -394,7 +394,7 @@ div.snip-header {
 		background: #fff !important;
 		border: 1px solid $light !important;
 		border-radius: 40px !important;
-		color: $link-color !important;
+		color: $dark-purple !important;
 	}
 	.snip-btn--left:hover {
 		@media screen and (min-width: 1025px) {
@@ -415,6 +415,6 @@ div.snip-header {
 		  transition: all .2s;
 	}
 	.snip-footer {
-		background: $link-color !important;
+		background: $dark-purple !important;
 	}
 }
