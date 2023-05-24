@@ -4,10 +4,10 @@
     <title>Portfolio</title>
     <description>A collection of creations and captured moments by Levi Stroop.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 23 May 2023 18:46:21 -0400</pubDate>
-    <lastBuildDate>Tue, 23 May 2023 18:46:21 -0400</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 23 May 2023 20:16:00 -0400</pubDate>
+    <lastBuildDate>Tue, 23 May 2023 20:16:00 -0400</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -17,8 +17,8 @@
 &lt;p&gt;This is text about a picture.&lt;/p&gt;
 </description>
         <pubDate>Tue, 28 Jan 2020 14:06:00 -0500</pubDate>
-        <link>http://localhost:4000/2020/01/28/anything-you-want.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/01/28/anything-you-want.html</guid>
+        <link>/2020/01/28/anything-you-want.html</link>
+        <guid isPermaLink="true">/2020/01/28/anything-you-want.html</guid>
         
         
       </item>
@@ -28,8 +28,8 @@
         <description>&lt;p&gt;Hello to the world, I hope this works.&lt;/p&gt;
 </description>
         <pubDate>Tue, 28 Jan 2020 09:55:00 -0500</pubDate>
-        <link>http://localhost:4000/pets/2020/01/28/this-is-a-new-post.html</link>
-        <guid isPermaLink="true">http://localhost:4000/pets/2020/01/28/this-is-a-new-post.html</guid>
+        <link>/pets/2020/01/28/this-is-a-new-post.html</link>
+        <guid isPermaLink="true">/pets/2020/01/28/this-is-a-new-post.html</guid>
         
         
         <category>Pets</category>
@@ -41,8 +41,8 @@
         <description>&lt;p&gt;Just when you think I&apos;ve run out of filler text... HA! Nope.&lt;/p&gt;
 </description>
         <pubDate>Mon, 20 Aug 2018 10:25:38 -0400</pubDate>
-        <link>http://localhost:4000/projects/2018/08/20/projects_01.html</link>
-        <guid isPermaLink="true">http://localhost:4000/projects/2018/08/20/projects_01.html</guid>
+        <link>/projects/2018/08/20/projects_01.html</link>
+        <guid isPermaLink="true">/projects/2018/08/20/projects_01.html</guid>
         
         
         <category>Projects</category>
@@ -58,8 +58,8 @@
 &lt;/button&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 04 Feb 2018 19:05:00 -0500</pubDate>
-        <link>http://localhost:4000/photography/2018/02/04/photography_01.html</link>
-        <guid isPermaLink="true">http://localhost:4000/photography/2018/02/04/photography_01.html</guid>
+        <link>/photography/2018/02/04/photography_01.html</link>
+        <guid isPermaLink="true">/photography/2018/02/04/photography_01.html</guid>
         
         
         <category>Photography</category>
@@ -71,8 +71,8 @@
         <description>&lt;p&gt;This is a snake. I am not certain of the breed. I know little about snake identification.&lt;/p&gt;
 </description>
         <pubDate>Sun, 04 Feb 2018 19:05:00 -0500</pubDate>
-        <link>http://localhost:4000/dreams/2018/02/04/dreams_01.html</link>
-        <guid isPermaLink="true">http://localhost:4000/dreams/2018/02/04/dreams_01.html</guid>
+        <link>/dreams/2018/02/04/dreams_01.html</link>
+        <guid isPermaLink="true">/dreams/2018/02/04/dreams_01.html</guid>
         
         
         <category>Dreams</category>
