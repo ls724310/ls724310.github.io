@@ -254,10 +254,14 @@ footer#main_footer {
 				margin: 0 10px;
 				width: 50px;
 				display: inline-block;
-			}
-			svg {
-				fill: $light-green;
-				width: 35px;
+				svg {
+					fill: $light-green;
+					width: 35px;
+				}
+				path {
+					fill: $light-green;
+					width: 35px;
+				}
 			}
 		}
 	}

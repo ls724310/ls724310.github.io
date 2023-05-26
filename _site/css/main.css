@@ -280,7 +280,11 @@ footer#main_footer div.container div.social-icons a {
   width: 50px;
   display: inline-block;
 }
-footer#main_footer div.container div.social-icons svg {
+footer#main_footer div.container div.social-icons a svg {
+  fill: #F1F9F5;
+  width: 35px;
+}
+footer#main_footer div.container div.social-icons a path {
   fill: #F1F9F5;
   width: 35px;
 }
