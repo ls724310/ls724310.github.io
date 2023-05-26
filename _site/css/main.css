@@ -269,6 +269,21 @@ footer#main_footer div.container h3 {
   padding: 20px 0px;
   margin: 0;
 }
+footer#main_footer div.container div.social-icons {
+  width: 225px;
+  margin: 0 auto;
+}
+footer#main_footer div.container div.social-icons a {
+  text-align: center;
+  padding: 0;
+  margin: 0 10px;
+  width: 50px;
+  display: inline-block;
+}
+footer#main_footer div.container div.social-icons svg {
+  fill: #F1F9F5;
+  width: 35px;
+}
 
 /* End of Footer ============================================================ */
 /* Posts ==================================================================== */

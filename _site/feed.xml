@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 26 May 2023 17:27:03 -0400</pubDate>
-    <lastBuildDate>Fri, 26 May 2023 17:27:03 -0400</lastBuildDate>
+    <pubDate>Fri, 26 May 2023 19:17:48 -0400</pubDate>
+    <lastBuildDate>Fri, 26 May 2023 19:17:48 -0400</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -37,6 +37,23 @@
       </item>
     
       <item>
+        <title>Gifford</title>
+        <description>&lt;p&gt;These are some photos from an excursion to Gifford State Park with my Mom! I took her out there to teach her how to use her new DSLR.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2019-0907-gifford&quot; title=&quot;Gifford State Park 2019&quot;&gt;
+  Check it Out!
+&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Sep 2019 20:05:00 -0400</pubDate>
+        <link>/photography/2019/09/06/gifford-photography.html</link>
+        <guid isPermaLink="true">/photography/2019/09/06/gifford-photography.html</guid>
+        
+        
+        <category>Photography</category>
+        
+      </item>
+    
+      <item>
         <title>Project 01</title>
         <description>&lt;p&gt;Just when you think I&apos;ve run out of filler text... HA! Nope.&lt;/p&gt;
 </description>
@@ -46,23 +63,6 @@
         
         
         <category>Projects</category>
-        
-      </item>
-    
-      <item>
-        <title>Tree</title>
-        <description>&lt;p&gt;Just when you think I&apos;ve run out of filler text... HA! Nope.&lt;/p&gt;
-
-&lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;snipcart-add-item&quot; data-item-name=&quot;Tree 1&quot; data-item-price=&quot;50.00&quot; data-item-id=&quot;01&quot; data-item-url=&quot;https://snipcart.com/crafts&quot;&gt;
-  Add to cart
-&lt;/button&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 04 Feb 2018 19:05:00 -0500</pubDate>
-        <link>/photography/2018/02/04/photography_01.html</link>
-        <guid isPermaLink="true">/photography/2018/02/04/photography_01.html</guid>
-        
-        
-        <category>Photography</category>
         
       </item>
     
