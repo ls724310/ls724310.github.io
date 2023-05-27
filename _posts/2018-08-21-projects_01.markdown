@@ -1,9 +1,0 @@
----
-title: Project 01
-layout: post
-date: '2018-08-20 10:25:38'
-categories: Projects
-image: "/assets/img/tree_01.jpg"
----
-
-<p>Just when you think I've run out of filler text... HA! Nope.</p>

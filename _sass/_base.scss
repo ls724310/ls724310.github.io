@@ -1,5 +1,15 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url(../assets/fonts/open-sans-regular.woff);
+}
+
+@font-face {
+	font-family: 'Exo';
+	src: url(../assets/fonts/exo-regular.woff);
+}
+
 $copy-font: 'Open Sans', sans-serif;
-$heading-font: 'Muli', sans-serif;
+$heading-font: 'Exo', sans-serif;
 $font-color: #242526;
 $purple: #5717D9;
 $dark-green: #032408;

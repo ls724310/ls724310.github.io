@@ -6,35 +6,9 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 26 May 2023 19:35:54 -0400</pubDate>
-    <lastBuildDate>Fri, 26 May 2023 19:35:54 -0400</lastBuildDate>
+    <pubDate>Fri, 26 May 2023 20:06:11 -0400</pubDate>
+    <lastBuildDate>Fri, 26 May 2023 20:06:11 -0400</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
-    
-      <item>
-        <title>Anything you want</title>
-        <description>&lt;h3&gt;This is a picture.&lt;/h3&gt;
-
-&lt;p&gt;This is text about a picture.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 28 Jan 2020 14:06:00 -0500</pubDate>
-        <link>/2020/01/28/anything-you-want.html</link>
-        <guid isPermaLink="true">/2020/01/28/anything-you-want.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>This is a new post</title>
-        <description>&lt;p&gt;Hello to the world, I hope this works.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 28 Jan 2020 09:55:00 -0500</pubDate>
-        <link>/pets/2020/01/28/this-is-a-new-post.html</link>
-        <guid isPermaLink="true">/pets/2020/01/28/this-is-a-new-post.html</guid>
-        
-        
-        <category>Pets</category>
-        
-      </item>
     
       <item>
         <title>Gifford</title>
@@ -50,32 +24,6 @@
         
         
         <category>Photography</category>
-        
-      </item>
-    
-      <item>
-        <title>Project 01</title>
-        <description>&lt;p&gt;Just when you think I&apos;ve run out of filler text... HA! Nope.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 20 Aug 2018 10:25:38 -0400</pubDate>
-        <link>/projects/2018/08/20/projects_01.html</link>
-        <guid isPermaLink="true">/projects/2018/08/20/projects_01.html</guid>
-        
-        
-        <category>Projects</category>
-        
-      </item>
-    
-      <item>
-        <title>Ball Python?</title>
-        <description>&lt;p&gt;This is a snake. I am not certain of the breed. I know little about snake identification.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 04 Feb 2018 19:05:00 -0500</pubDate>
-        <link>/dreams/2018/02/04/dreams_01.html</link>
-        <guid isPermaLink="true">/dreams/2018/02/04/dreams_01.html</guid>
-        
-        
-        <category>Dreams</category>
         
       </item>
     
