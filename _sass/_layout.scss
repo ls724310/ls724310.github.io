@@ -229,6 +229,13 @@ div#cta {
 		color: $dark-purple;
 		text-align: center;
 		margin: 0;
+		text-transform: uppercase;
+	}
+	p {
+		color: $dark-purple;
+		text-align: center;
+		text-transform: uppercase;
+		margin: 10px 0;
 	}
 }
 /* End of c.t. action. */
@@ -270,9 +277,9 @@ footer#main_footer {
 
 /* Posts ==================================================================== */
 div#post_it {
-	width: 90%;
+	width: 85%;
 	display: block;
-	margin: 30px 5% 0px 5%;
+	margin: 0 7.5%;
 	background: #fff;
 	min-height: 500px;
 	vertical-align: top;
@@ -280,11 +287,11 @@ div#post_it {
 		width: 44.62%;
 		display: inline-block;
 		background: #fff;
-		margin: 30px 2.5% 0px 2.5%;
+		margin: 0 2.5%;
 	}
 	@media screen and (min-width: 1025px) {
 		width: 22.66%;
-		margin: 30px 1% 0px 1%;
+		margin: 0 1%;
 	}
 	h2 {
 		padding: 10px 10px 0 10px;
@@ -302,7 +309,7 @@ div#post_it {
 div#po-po-po-post {
 	width: 100%;
 	background: $light-green;
-	padding: 0.01px 0 30px 0;
+	padding: 30px 0 30px 0;
 	img {
 		width: 100%;
 	}

@@ -5,9 +5,8 @@
 				<img alt="levi stroop logo" src="{{site.baseurl}}/assets/img/ls-logo.png">
 			</a>
 		</div>
-		<div class="cart_button">
+		<!-- <div class="cart_button">
 			<a href="#" class="snipcart-checkout">
-				<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In  -->
 				<svg version="1.1"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
 					 x="0px" y="0px" width="35px" height="35px" viewBox="0 0 18 17" style="enable-background:new 0 0 18 17;" xml:space="preserve">
@@ -23,7 +22,7 @@
 					L2.8,16.3z"/>
 				</svg>
 			</a>
-		</div>
+		</div> -->
 		<nav role="navigation" class="main-nav" id="main_nav">
 			<div id="nav-icon1">
 				<span></span>
@@ -43,6 +42,11 @@
 			        <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
 			      </li>
 			    {% endfor %}
+				<li>
+					<a href="assets/2023-levi-stroop-resume.pdf" target="_blank">
+						Resume
+					</a>
+				</li>
 			  </ul>
 			{% endunless %}
 		</div>
@@ -60,21 +64,24 @@
 			        <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
 			      </li>
 			    {% endfor %}
+				<li>
+					<a href="assets/2023-levi-stroop-resume.pdf" target="_blank">
+						Resume
+					</a>
+				</li>
 			  </ul>
 			{% endunless %}
 		</nav>
 	</div>
 </header>
 
-		<script>
-			document.getElementById('nav-icon1').onclick = function() {
-			    this.classList.toggle('cross');
-					document.getElementById('submenu').classList.toggle('open');
-			}
-		</script>
+<script>
+	document.getElementById('nav-icon1').onclick = function() {
+		this.classList.toggle('cross');
+			document.getElementById('submenu').classList.toggle('open');
+	}
+</script>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-		<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="M2U1MmU4ZjgtZjMyMi00ODZkLWE3NzUtNzdjZTY4MmYwOGE4NjM2NTM3MDg3MDczNTg1Mjkz" id="snipcart"></script>
-
-		<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="M2U1MmU4ZjgtZjMyMi00ODZkLWE3NzUtNzdjZTY4MmYwOGE4NjM2NTM3MDg3MDczNTg1Mjkz" id="snipcart"></script>
+<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" /> -->

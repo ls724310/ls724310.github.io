@@ -262,6 +262,13 @@ div#cta h1 {
   color: #0f012b;
   text-align: center;
   margin: 0;
+  text-transform: uppercase;
+}
+div#cta p {
+  color: #0f012b;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
 }
 
 /* End of c.t. action. */
@@ -300,9 +307,9 @@ footer#main_footer div.container div.social-icons a path {
 /* End of Footer ============================================================ */
 /* Posts ==================================================================== */
 div#post_it {
-  width: 90%;
+  width: 85%;
   display: block;
-  margin: 30px 5% 0px 5%;
+  margin: 0 7.5%;
   background: #fff;
   min-height: 500px;
   vertical-align: top;
@@ -312,13 +319,13 @@ div#post_it {
     width: 44.62%;
     display: inline-block;
     background: #fff;
-    margin: 30px 2.5% 0px 2.5%;
+    margin: 0 2.5%;
   }
 }
 @media screen and (min-width: 1025px) {
   div#post_it {
     width: 22.66%;
-    margin: 30px 1% 0px 1%;
+    margin: 0 1%;
   }
 }
 div#post_it h2 {
@@ -336,7 +343,7 @@ div#post_it p {
 div#po-po-po-post {
   width: 100%;
   background: #F1F9F5;
-  padding: 0.01px 0 30px 0;
+  padding: 30px 0 30px 0;
 }
 div#po-po-po-post img {
   width: 100%;
