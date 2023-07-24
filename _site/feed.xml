@@ -4,10 +4,10 @@
     <title>Portfolio</title>
     <description>A collection of creations and captured moments by Levi Stroop.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 24 Jul 2023 18:44:20 -0400</pubDate>
-    <lastBuildDate>Mon, 24 Jul 2023 18:44:20 -0400</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 24 Jul 2023 18:58:03 -0400</pubDate>
+    <lastBuildDate>Mon, 24 Jul 2023 18:58:03 -0400</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -19,8 +19,8 @@
 &lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Sep 2019 20:05:00 -0400</pubDate>
-        <link>http://localhost:4000/photography/2019/09/06/gifford-photography.html</link>
-        <guid isPermaLink="true">http://localhost:4000/photography/2019/09/06/gifford-photography.html</guid>
+        <link>/photography/2019/09/06/gifford-photography.html</link>
+        <guid isPermaLink="true">/photography/2019/09/06/gifford-photography.html</guid>
         
         
         <category>Photography</category>
