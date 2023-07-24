@@ -194,7 +194,7 @@ div#submenu	{
 			 transition: all 0.2s;
 			 -webkit-transition: all 0.2s;
 			 a {
-				 color: $dark-purple;
+				 color: $light-green;
 			 }
 		 }
 		 a:hover {
@@ -208,6 +208,33 @@ div#submenu	{
 			-webkit-transition: all 0.2s;
 		 }
 	 }
+	 div.container {
+		h3 {
+			color: $light-green;
+			text-align: center;
+			padding: 20px 0px;
+			margin: 0;
+		}
+		div.social-icons {
+			width: 225px;
+			margin: 0 auto;
+			a {
+				text-align: center;
+				padding: 0;
+				margin: 0 10px;
+				width: 50px;
+				display: inline-block;
+				svg {
+					fill: $light-green;
+					width: 35px;
+				}
+				path {
+					fill: $light-green;
+					width: 35px;
+				}
+			}
+		}
+	}
 }
 .submenu.open {
 	position: absolute;
@@ -442,5 +469,18 @@ div.snip-header {
 	}
 	.snip-footer {
 		background: $dark-purple !important;
+	}
+}
+
+/* Gallery */
+.image-gallery a.lightbox-image {
+	float: none;
+	display: inline-block;
+	width: 48.4%;
+	@media screen and (min-width: 768px) {
+		width: 31.93%;
+	}
+	@media screen and (min-width: 1600px) {
+		width: 23.781%;
 	}
 }
