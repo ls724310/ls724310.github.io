@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "John Bryan"
-date:   2019-05-01 00:05:00
+date:   2016-05-01 00:05:00
 categories: Photography
 image: /assets/img/2016-0501-john-bryan/20160501-john-bryan-01.jpg
 ---
