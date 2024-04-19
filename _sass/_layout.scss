@@ -307,20 +307,25 @@ div#post_it {
 	width: 85%;
 	display: block;
 	margin: 0 7.5%;
-	background: #fff;
-	min-height: 500px;
-	border-radius: 5px;
-	min-height: 650px;
-	border: 5px solid $light-orange;
+	background: $light-green;
+	border-radius: 25px;
+	border: 15px solid $light-orange;
+	vertical-align: top;
 	@media screen and (min-width: 600px) {
 		width: 44.62%;
 		display: inline-block;
-		background: #fff;
 		margin: 0 2.5%;
 	}
 	@media screen and (min-width: 1025px) {
+		width: 31.1%;
+		margin: 0 1%;
+	}
+	@media screen and (min-width: 1400px) {
 		width: 22.66%;
 		margin: 0 1%;
+	}
+	img {
+		border-bottom-left-radius: 25px;
 	}
 	h2 {
 		padding: 15px 15px 0;
@@ -333,15 +338,24 @@ div#post_it {
 		padding: 0 15px;
 	}
 	a {
-		background: linear-gradient(to right, #fff 50%, $dark-purple 50%);
+		background: linear-gradient(to right, $light-green 50%, $dark-purple 50%);
 		background-size: 200% 100%;
 		background-position: left bottom;
 		border: 1px solid $dark-purple;
 		color: $dark-purple;
+		padding: 20px;
+		display: block;
+		text-align: center;
+		text-transform: uppercase;
+		transition: all 0.2s ease-in-out;
+		margin-bottom: 25px;
+		font-size: 1.2em;
+		border-bottom-left-radius: 25px;
 	}
 	a:hover {
 		background-position: right bottom;
-		color: #fff
+		color: $light-green;
+		transition: all 0.2s ease-in-out;
 	}
 }
 
