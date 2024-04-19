@@ -337,7 +337,9 @@ div#post_it {
   margin: 0 7.5%;
   background: #fff;
   min-height: 500px;
-  vertical-align: top;
+  border-radius: 5px;
+  min-height: 650px;
+  border: 5px solid #FFF5E5;
 }
 @media screen and (min-width: 600px) {
   div#post_it {
@@ -354,14 +356,25 @@ div#post_it {
   }
 }
 div#post_it h2 {
-  padding: 10px 10px 0 10px;
+  padding: 15px 15px 0;
   margin: 0;
 }
 div#post_it time {
-  padding: 0 10px 10px 10px;
+  padding: 0 15px 15px;
 }
 div#post_it p {
-  padding: 0 10px 0 10px;
+  padding: 0 15px;
+}
+div#post_it a {
+  background: linear-gradient(to right, #fff 50%, #0f012b 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  border: 1px solid #0f012b;
+  color: #0f012b;
+}
+div#post_it a:hover {
+  background-position: right bottom;
+  color: #fff;
 }
 
 /* Posts Homepage */
