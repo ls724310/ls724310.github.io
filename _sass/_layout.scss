@@ -310,25 +310,46 @@ div#post_it {
 	background: #fff;
 	min-height: 500px;
 	vertical-align: top;
+	border-radius: 5px;
+	min-height: 650px;
+	border: 5px solid $light-orange;
+
 	@media screen and (min-width: 600px) {
 		width: 44.62%;
 		display: inline-block;
 		background: #fff;
 		margin: 0 2.5%;
 	}
+
 	@media screen and (min-width: 1025px) {
 		width: 22.66%;
 		margin: 0 1%;
 	}
+
 	h2 {
-		padding: 10px 10px 0 10px;
+		padding: 15px 15px 0;
 		margin: 0;
 	}
+
 	time {
-		padding: 0 10px 10px 10px;
+		padding: 0 15px 15px;
 	}
+
 	p {
-		padding: 0 10px 0 10px;
+		padding: 0 15px;
+	}
+
+	a {
+		background: linear-gradient(to right, #fff 50%, $dark-purple 50%);
+		background-size: 200% 100%;
+		background-position: left bottom;
+		border: 1px solid $dark-purple;
+		color: $dark-purple;
+	}
+
+	a:hover {
+		background-position: right bottom;
+		color: $fff
 	}
 }
 
