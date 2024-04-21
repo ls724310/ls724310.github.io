@@ -188,13 +188,8 @@ header#main_header div.container nav#main_nav_desktop ul.navigation li a .curren
 /* Dropdown Menu  Navigation================================================= */
 div#submenu {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #0f012b;
-}
-@media screen and (min-width: 768px) {
-  div#submenu {
-    height: 40vh;
-  }
 }
 
 .submenu {
@@ -278,25 +273,44 @@ div#submenu {
 
 /* End of Dropdown Menu  Navigation ========================================= */
 /* End of header stuff ====================================================== */
-/* Call to muh fuckin' duty! ...I mean action. Call to action. ============== */
-div#cta {
+/* Header Banner ============== */
+div#header-banner {
   width: 100%;
-  padding: 125px 0;
+  padding: 100px 0;
 }
-div#cta h1 {
+div#header-banner h1 {
   color: #0f012b;
   text-align: center;
   margin: 0;
   text-transform: uppercase;
 }
-div#cta p {
+div#header-banner p {
   color: #0f012b;
   text-align: center;
   text-transform: uppercase;
   margin: 10px 0;
 }
 
-/* End of c.t. action. */
+/* End of Header Banner */
+/* Home Header Banner ============== */
+div#home-banner {
+  width: 100%;
+  padding: 100px 0;
+}
+div#home-banner h1 {
+  color: #0f012b;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+}
+div#home-banner p {
+  color: #0f012b;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+/* End of Home Header Banner */
 /* Footer =================================================================== */
 footer#main_footer {
   width: 100%;
@@ -334,8 +348,8 @@ footer#main_footer div.container div.social-icons a path {
 div#post_it {
   width: 85%;
   display: block;
-  margin: 0 7.5%;
-  background: #F1F9F5;
+  margin: 0 7.5% 15px;
+  background: transparent;
   border-radius: 25px;
   border: 15px solid #FFF5E5;
   vertical-align: top;
@@ -344,19 +358,19 @@ div#post_it {
   div#post_it {
     width: 44.62%;
     display: inline-block;
-    margin: 0 2.5%;
+    margin: 0 2.5% 15px;
   }
 }
 @media screen and (min-width: 1025px) {
   div#post_it {
     width: 31.1%;
-    margin: 0 1%;
+    margin: 0 1% 15px;
   }
 }
 @media screen and (min-width: 1400px) {
   div#post_it {
     width: 22.66%;
-    margin: 0 1%;
+    margin: 0 1% 15px;
   }
 }
 div#post_it img {
@@ -365,15 +379,17 @@ div#post_it img {
 div#post_it h2 {
   padding: 15px 15px 0;
   margin: 0;
+  color: #0f012b;
 }
 div#post_it time {
   padding: 0 15px 15px;
 }
 div#post_it p {
   padding: 0 15px;
+  color: #000000;
 }
 div#post_it a {
-  background: linear-gradient(to right, #F1F9F5 50%, #0f012b 50%);
+  background: linear-gradient(to right, transparent 50%, #0f012b 50%);
   background-size: 200% 100%;
   background-position: left bottom;
   border: 1px solid #0f012b;
@@ -396,7 +412,7 @@ div#post_it a:hover {
 /* Posts Homepage */
 div#po-po-po-post {
   width: 100%;
-  background: #F1F9F5;
+  background: #F1F9F5 url("../assets/img/geometric-leaves-25.png");
   padding: 30px 0 30px 0;
 }
 div#po-po-po-post img {
@@ -532,6 +548,10 @@ div.snip-header .snip-header__total #snipcart-amount {
 }
 
 /* Gallery */
+.image-gallery {
+  padding: 50px 30px 30px;
+  background: #F1F9F5 url("../assets/img/geometric-leaves-25.png");
+}
 .image-gallery a.lightbox-image {
   float: none;
   display: inline-block;
@@ -546,6 +566,13 @@ div.snip-header .snip-header__total #snipcart-amount {
   .image-gallery a.lightbox-image {
     width: 23.781%;
   }
+}
+
+#about p {
+  text-align: center;
+  padding: 0 15px;
+  max-width: 865px;
+  margin: 0 auto 50px auto;
 }
 
 /**

@@ -4,10 +4,10 @@
     <title>Portfolio</title>
     <description>A collection of creations and captured moments by Levi Stroop.
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 18 Apr 2024 22:30:37 -0400</pubDate>
-    <lastBuildDate>Thu, 18 Apr 2024 22:30:37 -0400</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 20 Apr 2024 21:15:42 -0400</pubDate>
+    <lastBuildDate>Sat, 20 Apr 2024 21:15:42 -0400</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -19,8 +19,8 @@
 &lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 16 Apr 2024 20:05:00 -0400</pubDate>
-        <link>/photography/2024/04/16/storm-photography.html</link>
-        <guid isPermaLink="true">/photography/2024/04/16/storm-photography.html</guid>
+        <link>http://localhost:4000/photography/2024/04/16/storm-photography.html</link>
+        <guid isPermaLink="true">http://localhost:4000/photography/2024/04/16/storm-photography.html</guid>
         
         
         <category>Photography</category>
@@ -36,8 +36,8 @@
 &lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Sep 2019 20:05:00 -0400</pubDate>
-        <link>/photography/2019/09/06/gifford-photography.html</link>
-        <guid isPermaLink="true">/photography/2019/09/06/gifford-photography.html</guid>
+        <link>http://localhost:4000/photography/2019/09/06/gifford-photography.html</link>
+        <guid isPermaLink="true">http://localhost:4000/photography/2019/09/06/gifford-photography.html</guid>
         
         
         <category>Photography</category>
@@ -53,8 +53,8 @@
 &lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 30 Apr 2016 20:05:00 -0400</pubDate>
-        <link>/photography/2016/04/30/john-bryan-photography.html</link>
-        <guid isPermaLink="true">/photography/2016/04/30/john-bryan-photography.html</guid>
+        <link>http://localhost:4000/photography/2016/04/30/john-bryan-photography.html</link>
+        <guid isPermaLink="true">http://localhost:4000/photography/2016/04/30/john-bryan-photography.html</guid>
         
         
         <category>Photography</category>
