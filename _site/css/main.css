@@ -579,7 +579,7 @@ div.snip-header .snip-header__total #snipcart-amount {
 }
 @media screen and (min-width: 500px) {
   .image-gallery a.lightbox-image:nth-child(odd) {
-    margin-right: 2.1%;
+    margin-right: 2%;
   }
 }
 @media screen and (min-width: 768px) {
