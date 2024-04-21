@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Storm From Porch"
+title:  "Storm From My Porch"
 date:   2024-04-17 00:05:00
 categories: Photography
 image: /assets/img/2024-0417-storm/storm-from-porch-02.jpg

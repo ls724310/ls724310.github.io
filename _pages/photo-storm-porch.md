@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: Storm From Porch
+title: Storm From My Porch
 permalink: /2024-0417-storm/
 ---
 
