@@ -519,20 +519,50 @@ div.snip-header {
 
 /* Gallery */
 .image-gallery {
-	padding: 50px 30px 30px;
+	padding: 50px 30px 30px 50px;
 	background:  $light-green url('../assets/img/geometric-leaves-25.png');
 	a.lightbox-image {
 		float: none;
 		display: inline-block;
 		width: 100%;
-		@media screen and (min-width: 768px) {
+		margin: 0 0 30px;
+		@media screen and (min-width: 500px) {
 			width: 48.4%;
 		}
 		@media screen and (min-width: 768px) {
 			width: 31.9%;
+			margin-right: 1.5%;
 		}
 		@media screen and (min-width: 1600px) {
 			width: 23.781%;
+			margin-right: 1.329%;
+		}
+		&:nth-child(odd) {
+			@media screen and (min-width: 500px) {
+				margin-right: 2.15%;
+			}
+			@media screen and (min-width: 768px) {
+				margin-right: 1.5%;
+			}
+			@media screen and (min-width: 1600px) {
+				margin-right: 1.329%;
+			}
+		}
+		&:nth-child(3n+3) {
+			@media screen and (min-width: 768px) {
+				margin-right: 0;
+			}
+			@media screen and (min-width: 1600px) {
+				margin-right: 1.329%;
+			}
+		}
+		&:nth-child(4n+4) {
+			@media screen and (min-width: 1600px) {
+				margin-right: 0;
+			}
+		}
+		img {
+			border: 15px solid $light-orange;
 		}
 	}
 }
