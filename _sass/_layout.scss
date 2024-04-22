@@ -328,12 +328,12 @@ div#post_it {
 	border: 15px solid $light-orange;
 	vertical-align: top;
 	@media screen and (min-width: 600px) {
-		width: 44.62%;
+		width: 44.6%;
 		display: inline-block;
 		margin: 0 2.5% 15px;
 	}
 	@media screen and (min-width: 1025px) {
-		width: 31.1%;
+		width: 31%;
 		margin: 0 1% 15px;
 	}
 	@media screen and (min-width: 1400px) {
@@ -344,15 +344,15 @@ div#post_it {
 		border-bottom-left-radius: 25px;
 	}
 	h2 {
-		padding: 15px 15px 0;
+		padding: 15px 30px 0;
 		margin: 0;
 		color: $dark-purple;
 	}
 	time {
-		padding: 0 15px 15px;
+		padding: 0 30px 15px;
 	}
 	p {
-		padding: 0 15px;
+		padding: 0 30px;
 		color: #000000;
 	}
 	a {

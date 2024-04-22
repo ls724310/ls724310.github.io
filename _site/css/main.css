@@ -356,14 +356,14 @@ div#post_it {
 }
 @media screen and (min-width: 600px) {
   div#post_it {
-    width: 44.62%;
+    width: 44.6%;
     display: inline-block;
     margin: 0 2.5% 15px;
   }
 }
 @media screen and (min-width: 1025px) {
   div#post_it {
-    width: 31.1%;
+    width: 31%;
     margin: 0 1% 15px;
   }
 }
@@ -377,15 +377,15 @@ div#post_it img {
   border-bottom-left-radius: 25px;
 }
 div#post_it h2 {
-  padding: 15px 15px 0;
+  padding: 15px 30px 0;
   margin: 0;
   color: #0f012b;
 }
 div#post_it time {
-  padding: 0 15px 15px;
+  padding: 0 30px 15px;
 }
 div#post_it p {
-  padding: 0 15px;
+  padding: 0 30px;
   color: #000000;
 }
 div#post_it a {
