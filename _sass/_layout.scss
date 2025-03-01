@@ -323,7 +323,7 @@ div#post_it {
 	width: 85%;
 	display: block;
 	margin: 0 7.5% 15px;
-	background: transparent;
+	background: rgba($color: $light-orange, $alpha: 0.35);
 	border-radius: 25px;
 	border: 15px solid $light-orange;
 	vertical-align: top;
