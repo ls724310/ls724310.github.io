@@ -6,9 +6,26 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 01 Mar 2025 11:09:32 -0500</pubDate>
-    <lastBuildDate>Sat, 01 Mar 2025 11:09:32 -0500</lastBuildDate>
+    <pubDate>Mon, 31 Mar 2025 15:55:31 -0400</pubDate>
+    <lastBuildDate>Mon, 31 Mar 2025 15:55:31 -0400</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>Ranger - Coming Soon</title>
+        <description>&lt;p&gt;Put together a coming soon page based on a Figma document provided by the Senior Digital Designer at Rocky.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/ranger&quot; title=&quot;Ranger - Coming Soon&quot; target=&quot;_blank&quot;&gt;
+  Check it out!
+&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Mar 2025 20:05:00 -0400</pubDate>
+        <link>/projects/2025/03/30/ranger-project.html</link>
+        <guid isPermaLink="true">/projects/2025/03/30/ranger-project.html</guid>
+        
+        
+        <category>Projects</category>
+        
+      </item>
     
       <item>
         <title>Storm From My Porch</title>

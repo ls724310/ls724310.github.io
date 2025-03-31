@@ -1,0 +1,764 @@
+/* General ============================================================ */
+*   {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #FFF9E0;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+h1 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+h1,h2,h3,h4 {
+    font-family: aglet-slab, sans-serif;
+    margin: 0;
+    line-height: 1;
+}
+
+h4 {
+    font-size: clamp(37px, 9vw, 47px);
+    line-height: 90%;
+}
+
+h5, h6, p {
+    font-family: roboto, sans-serif;
+    margin: 0;
+    line-height: normal;
+    font-weight: 800;
+}
+
+img, picture, video {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.gumdrop {
+    font-family: roboto, sans-serif;
+    font-weight: 600;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    border-radius: 32px;
+    color: #FFF9E0;
+    display: block;
+    width: fit-content;
+    margin-top: 15px;
+    color: #FFF9E0;
+    text-decoration: none;
+    font-size: clamp(16px, 4.5vw ,27px);
+}
+
+a.gumdrop:hover {
+    color: #283148;
+}
+
+#body a.gumdrop:hover {
+    background: #C8FA5D;
+}
+
+input.gumdrop {
+    font-family: roboto, sans-serif;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    border-radius: 32px;
+    color: #FFF9E0;
+    display: block;
+    width: fit-content;
+    margin-top: 15px;
+    color: #FFF9E0;
+    text-decoration: none;
+    font-size: clamp(16px, 4.5vw ,27px);
+    font-weight: 600;
+}
+
+input.gumdrop:hover {
+    color: #283148;
+}
+
+#body input.gumdrop:hover {
+    background: #C8FA5D;
+    border-color: #C8FA5D;
+}
+
+.hide {
+    display: none;
+}
+
+/* Header ============================================================ */
+header {
+    background: #283148;
+    padding: 23px 33px;
+    border-radius: 32px;
+    margin: 15px;
+}
+
+    #ranger-logo {
+        width: 190px;
+        margin: 0 auto 5px auto;
+    }
+
+    #social-logos {    
+        display: none;
+        justify-content: center;
+    }
+
+        #instagram-logo svg {
+            fill: none;
+        }
+
+        #instagram-logo:hover svg {
+            fill: #FFF9E0;
+        }
+
+        #instagram-logo svg path.refill {
+            fill: #FFF9E0;
+        }
+
+        #instagram-logo:hover svg path.refill {
+            fill: #283148;
+        }
+
+    #facebook-logo {
+        margin-left: 42px;
+    }
+
+        #facebook-logo svg {
+            fill: none;
+        }
+
+        #facebook-logo:hover svg {
+            fill: #FFF9E0;
+        }
+
+        #facebook-logo svg path.refill {
+            fill: #FFF9E0;
+        }
+
+        #facebook-logo:hover svg path.refill {
+            fill: #283148;
+        }
+
+/* Body ============================================================ */
+#body {
+    display: grid;
+    gap: 15px 0;
+    grid-auto-flow: dense;
+    grid-template-columns: 15px 1fr 1fr 15px;
+    grid-template-rows: 1fr;
+}
+
+    /* Cards ======================================== */
+    .card {
+        border-radius: 32px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+        /* Full Cards ======================================== */
+        .full {
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+
+        .tip-top {
+            order: -2;
+        }
+
+            /* Main ==================== */
+            #main {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+            }
+
+            #main video {
+                grid-row: 1;
+                grid-column: 1;
+                border-radius: 32px;
+            }
+
+            #main h3 {
+                font-size: clamp(22px, 6vw, 39px);
+                color: #C8FA5D;
+                text-transform: uppercase;
+                grid-row: 1;
+                grid-column: 1;
+                align-self: end;
+                justify-self: center;
+                margin-bottom: 10px;
+            }
+
+            /* Shop ==================== */
+            #shop {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+                background: #77584A url('../assets/img/ranger/topography-60.png');
+                color: #FFF9E0;
+                border-radius: 32px;
+                padding: 24px;
+                background-size: 20%;
+            }
+
+                #shop .image{
+                    grid-row: 1;
+                    grid-column: 1;
+                    border-radius: 32px;
+                    margin: 0 auto;
+                    background: #FFF9E0;
+                }
+
+                #shop .copy {
+                    grid-row: 2;
+                    grid-column: 1;
+                    border-radius: 32px;
+                }
+
+                    #shop h2 {
+                        font-size: clamp(44px, 11.75vw, 82px);
+                        text-transform: uppercase;
+                        margin: 10px 0;
+                    }
+
+                    #shop p {
+                        font-size: clamp(16px, 4.5vw, 23px);
+                    }
+
+                    #shop a {
+                        background: #D53815;
+                    }
+
+            /* Social ==================== */
+            #social {
+                border-radius: 32px;
+                border: 3px solid #D53815;
+                padding: 24px 0 24px 24px;
+                overflow: hidden;
+            }
+                #social h2 {
+                    font-size: clamp(44px, 11.75vw, 68px);
+                    text-transform: uppercase;
+                    color: #D53815;
+                    margin-bottom: 15px;
+                }
+
+                #social h3 {
+                    font-size: clamp(22px, 6vw, 39px);
+                    text-transform: uppercase;
+                    color: #D53815;
+                    margin: 15px 0;
+                }
+
+                #social .container {
+                    overflow: scroll;
+                    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,249,224,1));
+                }
+
+                #social .carousel {
+                    display: grid;
+                    grid-template-rows: 1fr;
+                    grid-template-columns: repeat(5, 1fr);
+                    overflow: scroll;
+                    width: 300%;
+                    gap: 16px 0;
+                }
+                
+                    #social .carousel .image {
+                        grid-row: 1;
+                        align-self: center;
+                        margin-right: 15px;
+                        position: relative;
+                    }
+
+                        #social .carousel .image img {
+                            border-radius: 16px;
+                            border: 2px solid #D53815;
+                            box-shadow: 2px 2px 4px 0px var(--Social-Image-Drop-Shadow, rgba(213, 56, 21, 0.50));
+                        }
+
+                        #social .carousel .image .tag {
+                            position: absolute;
+                            right: 16px;
+                            bottom: 20px;
+                            border-radius: 32px;
+                            background: #D53815;
+                            padding: 6px 14px;
+                            text-decoration: none;
+                        }
+
+                            #social .carousel .image .tag:hover {
+                                background: #C8FA5D;
+                            }
+
+                            #social .carousel .image .tag a {
+                                color: #fff;
+                                font-family: roboto, sans-serif;
+                                font-weight: 500;
+                                font-size: 13.33px;
+                            }
+                            
+                                #social .carousel .image .tag:hover a {
+                                    color: #283148;
+                                }
+
+                #social #instagram-logo-02 {
+                    display: inline-block;
+                } 
+
+                    #social #instagram-logo-02 svg {
+                        fill: none;
+                    }
+            
+                    #social #instagram-logo-02:hover svg {
+                        fill: #D53815;
+                    }
+            
+                    #social #instagram-logo-02 svg path.refill {
+                        fill: #D53815;
+                    }
+            
+                    #social #instagram-logo-02:hover svg path.refill {
+                        fill: #FFF9E0;
+                    }
+
+                #social #facebook-logo-02 {
+                    margin-left: 15px;
+                    display: inline-block;
+                }
+                
+                    #social #facebook-logo-02 svg {
+                        fill: none;
+                    }
+            
+                    #social #facebook-logo-02:hover svg {
+                        fill: #D53815;
+                    }
+            
+                    #social #facebook-logo-02 svg path.refill {
+                        fill: #D53815;
+                    }
+            
+                    #social #facebook-logo-02:hover svg path.refill {
+                        fill: #FFF9E0;
+                    }
+        
+                
+
+            /* Sign Up ==================== */
+            #sign-up {
+                border-radius: 32px;
+                background: #283148 url('../assets/img/ranger/topography-40.png');
+                padding: 48px 24px;
+                text-align: center;
+                background-size: 20%;
+            }
+
+                #sign-up h2 {
+                    color:#C8FA5D;
+                    font-size: clamp(44px, 11.75vw, 68px);
+                    text-transform: uppercase;
+                }
+
+                #sign-up p {
+                    font-size: clamp(16px, 4.5vw, 27px);
+                    color: #FFF9E0;
+                    margin: 32px 0;
+                }
+
+                #sign-up input.gumdrop {
+                    background: #D53815;
+                    margin: 24px auto 0 auto;
+                    padding: 12px 24px;
+                    display: inline-block;
+                    border: 1.5px solid #D53815;
+                }
+
+                div.contained {
+                    display: block;
+                    position: relative;
+                    top: -1px;
+                    width: fit-content;
+                    margin: 0 auto;
+                }
+
+                    input#email {
+                        border-radius: 32px;
+                        border: 1.5px solid #FFF9E0;
+                        padding: 15px 24px;
+                        background: transparent;
+                        width: 300px;
+                        color: #FFF9E0;
+                        font-size: 1.5rem;
+                    }
+
+                        input.hidden {
+                            display: none;
+                        }
+
+                    label.email-placeholder {
+                        position: absolute;
+                        top: 16px;
+                        left: 24px;
+                        color: #FFF9E0;
+                        font-size: 1.5rem;
+                        font-family: roboto, sans-serif;
+                        line-height: 1;
+                        text-align: left;
+                        transition: font-size .5s,top .5s,left .5s;
+                    }
+
+                        label.email-placeholder.scrunchie {
+                            font-size: 12px;
+                            top: 6px;
+                            left: 26px;
+                            transition: font-size .5s,top .5s,left .5s;
+                        }
+
+        /* Half Cards ======================================== */
+        .half {}
+
+        .half.left {
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+
+        .half.right {
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+
+        .top {
+            order: -1;
+        }
+
+        .bottom {
+            order: 0;
+        }
+
+            /* Adventure ==================== */
+            #adventure {
+                background: #D53815;
+                min-height: 300px;
+                text-align: center;
+                color: #FFF9E0;
+                padding: 24px;
+            }
+
+            #adventure h4 {
+                text-transform: uppercase;
+                margin-bottom: 15px;
+            }
+
+            #adventure p {
+                font-size: clamp(16px, 4.5vw, 27px);
+            }
+
+            #adventure a {
+                background: #283148;
+                margin: 15px auto 0 auto;
+            }
+
+            /* Pantsed ==================== */
+            #pantsed {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+                width: 100%;
+                height: 100%;
+                background: url(../assets/img/ranger/pantsed.jpg) center center no-repeat;
+                background-size: cover;
+                border-radius: 32px;
+                aspect-ratio: 1;
+                padding: 24px;
+            }
+
+            #pantsed .copy {
+                color: #283148;
+                text-transform: uppercase;
+                grid-row: 1;
+                grid-column: 1;
+                align-self: end;
+                justify-self: center;
+                text-align: center;
+            }
+
+                #pantsed p {
+                    margin-top: 15px;
+                    text-transform: none;
+                    font-size: clamp(16px, 4.5vw, 27px);
+                }
+
+            /* Mission ==================== */
+            #kids {
+                width: 100%;
+                height: 100%;
+                background: url(../assets/img/ranger/kids.jpg) no-repeat center center;
+                background-size: cover;
+                aspect-ratio: 1;
+            }
+
+            #mission {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+                color:#283148;
+            }
+
+            #mission .one {
+                background: #C8FA5D;
+                border-radius: 32px;
+                padding: 24px;
+                margin-bottom: 15px;
+            }
+
+            #mission .one h3 {
+                font-size: clamp(35px, 9.35vw, 57px);
+                text-transform: uppercase;
+            }
+
+            #mission .two {
+                border: 3px solid #283148;
+                border-radius: 32px;
+                padding: 24px;
+            }
+
+            #mission .two h5 {
+                font-size: clamp(22px, 6vw, 37px);
+                margin-bottom: 12px;
+            }
+
+            #mission .two p {
+                font-size: 17px;
+                font-weight: 400;
+            }
+
+/* Footer ============================================================ */
+footer {
+    background: #77584A;
+    border-radius: 32px;
+    padding: 40px 0;
+    margin: 15px;
+}
+
+footer p {
+    color: #FFF9E0;
+    text-align: center;
+}
+
+/* Media Queries ============================================================ */
+@media screen and (min-width: 768px) {
+    header {
+        display: grid;
+        grid-template-rows: 1fr;
+        margin: 24px;
+    }
+
+    #ranger-logo {
+        grid-row: 1;
+        justify-self: left;
+        margin: 0;
+    }
+
+    #social-logos {
+        display: flex;
+        grid-row: 1;
+        justify-self: right;
+    }
+
+    #body {
+        gap: 24px 0;
+    }
+
+    a.gumdrop {
+        padding: 16px 24px;
+    }
+
+        #main h3 {
+            margin-bottom: 48px;
+        }
+
+        #shop {
+            padding: 48px;
+        }
+        
+            #social {
+                padding: 48px 0 48px 48px;
+            }
+
+                #social h3 {
+                    margin: 24px 0;
+                }
+
+        #adventure {
+            padding: 48px;
+        }
+            #adventure h4 {
+                margin-bottom: 24px;
+            }
+
+            #adventure p {
+                margin-bottom: 24px;
+            }
+
+        #pantsed {
+            padding: 48px;
+        }
+
+            #pantsed h4 {
+                margin-bottom: 24px
+            }
+
+            #pantsed p {
+                margin: 0;
+            }
+
+        #mission .one {
+            padding: 48px;
+            margin-bottom: 24px;
+        }
+
+        #mission .two {
+            padding: 48px;
+        }
+
+            #mission .two h5 {
+                font-size: clamp(22px, 2vw, 37px);
+                line-height: 1.05;
+            }
+
+        #sign-up {
+            padding: 96px;
+        }
+
+            #sign-up input.gumdrop {
+                margin: 0 0 0 12px;
+                cursor: pointer;
+            }
+
+            div.email {
+                width: fit-content;
+                margin: 0 auto;
+            }
+
+            div.contained {
+                display: inline-block;
+            }
+
+                input#email {
+                    margin: 0 12px 0 0;
+                    width: 330px;
+                }
+
+    #social .carousel {
+        width: 200%;
+    }
+
+    footer {
+        margin: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #body {
+        grid-template-columns: 24px 1fr 24px 1fr 24px;
+        /* max-width: 1240px; */
+        margin: 0 auto;
+    }
+
+    .full {
+        grid-column-end: 5;
+    }
+
+        #shop {
+            display: grid;
+            grid-template-columns: 1fr 1fr 15px 1fr 1fr;
+            grid-template-rows: 1fr;
+        }
+
+            #shop .copy {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row: 1;
+                align-self: center;
+                justify-self: center;
+            }
+
+            #shop .image {
+                grid-column-start: 4;
+                grid-column-end: 6;
+            }
+
+                #social h3 {
+                    margin: 24px 0;
+                }
+
+                input#email {
+                    margin: 0 12px 0 0;
+                    width: 370px;
+                }
+
+    .half.left {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    .half.right {
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
+
+        #adventure {
+            padding: 96px 48px;
+        }
+
+        #pantsed {
+            aspect-ratio: unset;
+        }
+
+        #kids {
+            aspect-ratio: unset;
+        }
+
+    .tip-top {
+        order: unset;
+    }    
+
+    .top {
+        order: unset;
+    }
+
+    .bottom {
+        order: unset;
+    }
+
+    #social .carousel {
+        width: 150%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    #adventure {
+        padding: 196px 48px;
+    }
+
+    #shop .image {
+        padding: 0 96px;
+    }
+}

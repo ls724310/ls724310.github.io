@@ -1,0 +1,4 @@
+---
+layout: ranger
+permalink: "/ranger/"
+---
