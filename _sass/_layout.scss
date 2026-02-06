@@ -168,51 +168,60 @@ div#submenu	{
 	min-height: 100vh;
 	background-color: $dark-purple;
 }
+
 .submenu {
 	position: absolute;
 	visibility: hidden;
 	top: -800px;
 	transition: top 0.5s,visibility 0.5s, opacity 0.5s linear;
-   -moz-transition: top 0.5s, visibility 0.5s, opacity 0.5s linear;
-   -webkit-transition: top 0.5s, visibility 0.5s, opacity 0.5s linear;
-   z-index: 14;
-	 ul.navigation {
-		 list-style: none;
-		 padding-left: 0;
-		 margin-top: 30%;
-		 @media screen and (min-width: 568px) {
+	-moz-transition: top 0.5s, visibility 0.5s, opacity 0.5s linear;
+	-webkit-transition: top 0.5s, visibility 0.5s, opacity 0.5s linear;
+	z-index: 14;
+
+	ul.navigation {
+		list-style: none;
+		padding-left: 0;
+		margin-top: 30%;
+		
+		@media screen and (min-width: 568px) {
 			margin-top: 10%;
-		 }
-		 @media screen and (min-width: 768px) {
-    	margin-top: 12%;
-		 }
-		 li {
-			 font-size: 2em;
-			 text-align: center;
-			 transition: all 0.2s;
-			 -webkit-transition: all 0.2s;
-			 a {
-				 color: $light-green;
-			 }
-		 }
-		 a:hover {
-				color: $purple;
-				transition: all 0.2s;
-				-webkit-transition: all 0.2s;
-		 }
-		 a:active {
-			transform: scale(0.9);
+		}
+		
+		@media screen and (min-width: 768px) {
+			margin-top: 12%;
+		}
+
+		li {
+			font-size: 2em;
+			text-align: center;
 			transition: all 0.2s;
 			-webkit-transition: all 0.2s;
-		 }
-	 }
-	 div.container {
+			a {
+				color: $light-green;
+			}
+		}
+
+		a:hover {
+			color: $purple;
+			transition: all 0.2s;
+			-webkit-transition: all 0.2s;
+		}
+
+		a:active {
+		transform: scale(0.9);
+		transition: all 0.2s;
+		-webkit-transition: all 0.2s;
+		}
+	}
+
+	div.container {
 		h3 {
 			color: $light-green;
 			text-align: center;
 			padding: 20px 0px;
 			margin: 0;
 		}
+	
 		div.social-icons {
 			width: 225px;
 			margin: 0 auto;
@@ -238,7 +247,7 @@ div#submenu	{
 	position: absolute;
 	visibility: visible;
 	z-index: 14;
-  top: 0px;
+  	top: 0px;
 	transition: top 0.5s, visibility 0.5s, opacity 0.7s linear;
    -moz-transition: top 0.5s, visibility 0.5s, opacity 0.7s linear;
    -webkit-transition: top 0.5s, visibility 0.5s, opacity 0.7s linear;
@@ -246,16 +255,42 @@ div#submenu	{
 /* End of Dropdown Menu  Navigation ========================================= */
 /* End of header stuff ====================================================== */
 
+/* Scalloped ================================================================ */
+.scalloped {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height:50px;
+
+	&.orange-green {
+		background: radial-gradient(circle at 50% 0%, rgba($color: $light-orange, $alpha: 0.35) 25%, $light-green 26%, $light-green 40%);
+		background-color: $light-orange;
+		background-size: 50px 100px;
+		background-repeat: repeat-x;
+	}
+
+	&.green-purple {
+		background: radial-gradient(circle at 50% 0%, rgba($color: $light-green, $alpha: 0.35) 25%, $dark-purple 26%, $dark-purple 40%);
+		background-color: $light-green url('../assets/img/geometric-leaves-25.png');
+		background-size: 50px 100px;
+		background-repeat: repeat-x;
+	}
+}
+
 /* Header Banner ============== */
 div#header-banner {
 	width: 100%;
 	padding: 100px 0;
+	background: $light-orange;
+	position: relative;
+
 	h1 {
 		color: $dark-purple;
 		text-align: center;
 		margin: 0;
 		text-transform: uppercase;
 	}
+
 	p {
 		color: $dark-purple;
 		text-align: center;
@@ -269,12 +304,16 @@ div#header-banner {
 div#home-banner {
 	width: 100%;
 	padding: 100px 0;
+	background: $light-orange;
+	position: relative;
+	
 	h1 {
 		color: $dark-purple;
 		text-align: center;
 		margin: 0;
 		text-transform: uppercase;
 	}
+	
 	p {
 		color: $dark-purple;
 		text-align: center;
@@ -289,6 +328,7 @@ footer#main_footer {
 	width: 100%;
 	padding: 80px 0;
 	background: $dark-purple;
+	
 	div.container {
 		h3 {
 			color: $light-green;
@@ -296,6 +336,7 @@ footer#main_footer {
 			padding: 20px 0px;
 			margin: 0;
 		}
+		
 		div.social-icons {
 			width: 225px;
 			margin: 0 auto;
@@ -320,76 +361,89 @@ footer#main_footer {
 /* End of Footer ============================================================ */
 
 /* Posts ==================================================================== */
-div#post_it {
-	width: 85%;
-	display: block;
-	margin: 0 7.5% 15px;
-	background: rgba($color: $light-orange, $alpha: 0.35);
-	border-radius: 25px;
-	border: 15px solid $dark-green;
-	vertical-align: top;
-	@media screen and (min-width: 600px) {
-		width: 44.6%;
-		display: inline-block;
-		margin: 0 2.5% 15px;
-	}
-	@media screen and (min-width: 1025px) {
-		width: 31%;
-		margin: 0 1% 15px;
-	}
-	@media screen and (min-width: 1400px) {
-		width: 22.66%;
-		margin: 0 1% 15px;
-	}
-	img {
-		border-top-left-radius: 8px;
-		border-top-right-radius: 8px;
-		border-bottom-left-radius: 15px;
-		border-bottom-right-radius: 15px;
-	}
-	h2 {
-		padding: 15px 30px 0;
-		margin: 0;
-		color: $dark-purple;
-		font-size: 1.5em;
-	}
-	time {
-		padding: 0 30px 15px;
-	}
-	p {
-		padding: 0 30px;
-		color: #000000;
-	}
-	a {
-		background: linear-gradient(to top, transparent 50%, $dark-purple 50%);
-		background-size: 100% 200%;
-		background-position: left bottom;
-		border: 1px solid $dark-purple;
-		color: $dark-purple;
-		padding: 15px;
-		display: block;
-		text-align: center;
-		text-transform: uppercase;
-		transition: all 0.2s ease-in-out;
-		margin-bottom: 25px;
-		font-size: 1.2em;
-		border-bottom-left-radius: 15px;
-		border-bottom-right-radius: 15px;
-	}
-	a:hover {
-		background-position: left top;
-		color: $light-green;
-		transition: all 0.2s ease-in-out;
-	}
-}
-
-/* Posts Homepage */
-div#po-po-po-post {
-	width: 100%;
+div.light-green-subtle-bg {
 	background: $light-green url('../assets/img/geometric-leaves-25.png');
-	padding: 30px 0 30px 0;
-	img {
-		width: 100%;
+	position: relative;
+	padding-bottom: 50px;
+
+	div#po-po-po-post {
+		display: grid;
+		grid-template-columns: repeat(1,minmax(0,1fr));
+		gap: 25px;
+		padding: 15px 30px 30px 30px;
+		max-width: 1920px;
+		margin: 0 auto;
+
+		@media screen and (min-width: 600px) {
+			grid-template-columns: repeat(2,minmax(0,1fr));
+		}
+		
+		// @media screen and (min-width: 1025px) {
+		// 	grid-template-columns: repeat(3,minmax(0,1fr));
+		// }
+		
+		@media screen and (min-width: 1400px) {
+			grid-template-columns: repeat(4,minmax(0,1fr));
+			gap: 50px;
+			padding: 30px 60px 60px 60px;
+		}
+		
+		img {
+			width: 100%;
+		}
+
+		div#post_it {
+			background: rgba($color: $light-orange, $alpha: 0.35);
+			border-radius: 25px;
+			border: 15px solid $dark-purple;
+			vertical-align: top;
+			
+			img {
+				border-top-left-radius: 8px;
+				border-top-right-radius: 8px;
+				border-bottom-left-radius: 15px;
+				border-bottom-right-radius: 15px;
+			}
+			
+			h2 {
+				padding: 15px 30px 0;
+				margin: 0;
+				color: $dark-purple;
+				font-size: 1.5em;
+			}
+			
+			time {
+				padding: 0 30px 15px;
+			}
+			
+			p {
+				padding: 0 30px;
+				color: #000000;
+			}
+			
+			a {
+				background: linear-gradient(to bottom, $dark-purple 50%, transparent 50%);
+				background-size: 100% 200%;
+				background-position: left top;
+				border: 1px solid $dark-purple;
+				color: $light-green;
+				padding: 15px;
+				display: block;
+				text-align: center;
+				text-transform: uppercase;
+				transition: all 0.2s ease-in-out;
+				margin-bottom: 25px;
+				font-size: 1.2em;
+				border-bottom-left-radius: 15px;
+				border-bottom-right-radius: 15px;
+			}
+
+			a:hover {
+				background-position: left bottom;
+				color: $dark-purple;
+				transition: all 0.2s ease-in-out;
+			}
+		}
 	}
 }
 /* End of Posts stuff ======================================================= */
@@ -527,6 +581,7 @@ div.snip-header {
 .image-gallery {
 	padding: 50px 30px 30px 50px;
 	background:  $light-green url('../assets/img/geometric-leaves-25.png');
+
 	a.lightbox-image {
 		float: none;
 		display: inline-block;
@@ -545,6 +600,7 @@ div.snip-header {
 			margin-right: 1.329%;
 			margin-bottom: 30px;
 		}
+
 		&:nth-child(odd) {
 			@media screen and (min-width: 500px) {
 				margin-right: 2%;
@@ -556,6 +612,7 @@ div.snip-header {
 				margin-right: 1.329%;
 			}
 		}
+
 		&:nth-child(3n+3) {
 			@media screen and (min-width: 768px) {
 				margin-right: 0;
@@ -564,11 +621,13 @@ div.snip-header {
 				margin-right: 1.329%;
 			}
 		}
+
 		&:nth-child(4n+4) {
 			@media screen and (min-width: 1600px) {
 				margin-right: 0;
 			}
 		}
+
 		img {
 			border: 15px solid $light-orange;
 		}
@@ -576,10 +635,14 @@ div.snip-header {
 }
 
 #about {
+	background:  $light-green url('../assets/img/geometric-leaves-25.png');
+	padding-bottom: 50px;
+	position: relative;
+
 	p {
 		text-align: center;
-		padding: 0 15px;
+		padding: 0 15px 25px 15px;
 		max-width: 865px;
-		margin: 0 auto 50px auto;
+		margin: 0 auto;
 	}
 }
