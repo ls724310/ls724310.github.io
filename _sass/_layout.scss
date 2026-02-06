@@ -326,7 +326,7 @@ div#post_it {
 	margin: 0 7.5% 15px;
 	background: rgba($color: $light-orange, $alpha: 0.35);
 	border-radius: 25px;
-	border: 15px solid $light-orange;
+	border: 15px solid $dark-green;
 	vertical-align: top;
 	@media screen and (min-width: 600px) {
 		width: 44.6%;
@@ -342,14 +342,16 @@ div#post_it {
 		margin: 0 1% 15px;
 	}
 	img {
-		border-top-left-radius: 15px;
-		border-top-right-radius: 15px;
-		border-bottom-left-radius: 25px;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
 	}
 	h2 {
 		padding: 15px 30px 0;
 		margin: 0;
 		color: $dark-purple;
+		font-size: 1.5em;
 	}
 	time {
 		padding: 0 30px 15px;
@@ -359,22 +361,23 @@ div#post_it {
 		color: #000000;
 	}
 	a {
-		background: linear-gradient(to right, transparent 50%, $dark-purple 50%);
-		background-size: 200% 100%;
+		background: linear-gradient(to top, transparent 50%, $dark-purple 50%);
+		background-size: 100% 200%;
 		background-position: left bottom;
 		border: 1px solid $dark-purple;
 		color: $dark-purple;
-		padding: 20px;
+		padding: 15px;
 		display: block;
 		text-align: center;
 		text-transform: uppercase;
 		transition: all 0.2s ease-in-out;
 		margin-bottom: 25px;
 		font-size: 1.2em;
-		border-bottom-left-radius: 25px;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
 	}
 	a:hover {
-		background-position: right bottom;
+		background-position: left top;
 		color: $light-green;
 		transition: all 0.2s ease-in-out;
 	}
