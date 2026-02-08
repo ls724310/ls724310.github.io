@@ -5,6 +5,7 @@ body {
 	font-size: 1.1em;
 	-webkit-font-smoothing: antialiased;
 }
+
 h1,
 h2,
 h3 {
@@ -13,6 +14,7 @@ h3 {
 	font-family: $heading-font;
 	line-height: 1.5;
 }
+
 h1 {
 	color: $font-color;
 	font-size: 2.5em;
@@ -22,26 +24,32 @@ h1 {
 		color: $dark-purple;
 	}
 }
+
 h2 {
 	font-size: 2em;
 }
+
 a,
 a:visited {
 	color: $dark-purple;
 	text-decoration: none;
 	font-weight: bold;
 }
+
 a:hover {
 	color: $purple;
 	text-decoration: none;
 }
+
 main {
 	padding: 0;
 	margin: 0 auto;
 }
+
 time {
 	color: #898989;
 }
+
 .container {
 	margin: 0 auto;
 }
@@ -63,18 +71,23 @@ header#main_header {
 				height: 42.5px;
 			}
 		}
+
 		nav#main_nav_desktop {
 			float: right;
 			display: none;
+
 			@media screen and (min-width: 1025px) {
 				display: block;
 			}
+
 			ul.navigation {
 				list-style: none;
 				margin: 0;
+
 				li {
 					display: inline-block;
 					padding: 15px;
+					
 					a {
 						text-decoration: none;
 						color: $light-green;
@@ -95,21 +108,22 @@ header#main_header {
 
 /* Hamburgesa Icono de Navegación =========================================== */
 #nav-icon1 {
-  width: 40px;
-  height: 40px;
+	width: 40px;
+	height: 40px;
 	float: right;
-  position: relative;
-  margin: 10px 0px 10px 10px;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  cursor: pointer;
-  z-index: 1000;
+	position: relative;
+	margin: 10px;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+	cursor: pointer;
+	z-index: 1000;
+
 	@media screen and (min-width: 1025px) {
 		display: none;
 	}
@@ -120,7 +134,7 @@ header#main_header {
   position: absolute;
   height: 3px;
   width: 25px;
-  background: #282828;
+  background: $light-green;
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0deg);
@@ -145,7 +159,7 @@ header#main_header {
 }
 
 #nav-icon1.cross span {
-  background: #8a1913;
+  background: $purple;
 }
 
 #nav-icon1.cross span:nth-child(1) {
@@ -302,8 +316,9 @@ div#submenu	{
 		bottom: 1px;
 	}
 }
+/* End of Scalloped ================================================================ */
 
-/* Header Banner ============== */
+/* Header Banner =================================================================== */
 div#header-banner {
 	width: 100%;
 	padding: 100px 0 120px 0;
@@ -421,7 +436,7 @@ div.light-green-subtle-bg {
 		div#post_it {
 			background: rgba($color: $light-orange, $alpha: 0.35);
 			border-radius: 25px;
-			border: 15px solid $dark-purple;
+			border: 15px solid $dark-green;
 			vertical-align: top;
 			
 			img {
