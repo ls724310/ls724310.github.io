@@ -394,7 +394,9 @@ footer#main_footer div.container div.social-icons a path {
 div.light-green-subtle-bg {
   background: #F1F9F5 url("../assets/img/geometric-leaves-25.png");
   position: relative;
-  padding-bottom: 50px;
+  padding: 30px 0 50px 0;
+  margin-top: -20px;
+  z-index: 5;
 }
 div.light-green-subtle-bg div#po-po-po-post {
   display: grid;

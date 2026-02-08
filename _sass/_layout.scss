@@ -405,7 +405,9 @@ footer#main_footer {
 div.light-green-subtle-bg {
 	background: $light-green url('../assets/img/geometric-leaves-25.png');
 	position: relative;
-	padding-bottom: 50px;
+	padding: 30px 0 50px 0;
+	margin-top: -20px;
+	z-index: 5;
 
 	div#po-po-po-post {
 		display: grid;
