@@ -104,7 +104,10 @@ header#main_header div.container nav#main_nav_desktop ul.navigation li {
 }
 header#main_header div.container nav#main_nav_desktop ul.navigation li a {
   text-decoration: none;
-  color: #FFFBF5;
+  color: #F1F9F5;
+}
+header#main_header div.container nav#main_nav_desktop ul.navigation li a:hover {
+  color: #5717D9;
 }
 header#main_header div.container nav#main_nav_desktop ul.navigation li a .current {
   color: #5717D9;
@@ -280,10 +283,11 @@ div#submenu {
   bottom: 0;
   width: 100%;
   height: 50px;
+  z-index: 2;
 }
 .scalloped.orange-green {
-  background: radial-gradient(circle at 50% 0%, rgba(255, 251, 245, 0.35) 25%, #F1F9F5 26%, #F1F9F5 40%);
-  background-color: #FFFBF5;
+  background: radial-gradient(circle at 50% 0%, transparent 25%, #F1F9F5 26%, #F1F9F5 40%);
+  background-color: transparent;
   background-size: 50px 100px;
   background-repeat: repeat-x;
 }
@@ -293,11 +297,27 @@ div#submenu {
   background-size: 50px 100px;
   background-repeat: repeat-x;
 }
+.scalloped.orange-purple {
+  background: radial-gradient(circle at 50% 0%, transparent 25%, #0f012b 26%, #0f012b 40%);
+  background-color: #FFFBF5;
+  background-size: 50px 100px;
+  background-repeat: repeat-x;
+}
+.scalloped.orange-darkgreen {
+  background: radial-gradient(circle at 50% 0%, transparent 25%, #031C06 26%, #031C06 40%);
+  background-color: transparent;
+  background-size: 50px 100px;
+  background-repeat: repeat-x;
+}
+.scalloped.border {
+  z-index: 1;
+  bottom: 1px;
+}
 
 /* Header Banner ============== */
 div#header-banner {
   width: 100%;
-  padding: 100px 0;
+  padding: 100px 0 120px 0;
   background: #FFFBF5;
   position: relative;
 }
@@ -318,7 +338,7 @@ div#header-banner p {
 /* Home Header Banner ============== */
 div#home-banner {
   width: 100%;
-  padding: 100px 0;
+  padding: 100px 0 120px 0;
   background: #FFFBF5;
   position: relative;
 }
