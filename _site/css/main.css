@@ -598,66 +598,48 @@ div.snip-header .snip-header__total #snipcart-amount {
 
 /* Gallery */
 .image-gallery {
-  padding: 50px 30px 30px 50px;
+  padding: 15px 25px 35px 25px;
   background: #F1F9F5 url("../assets/img/geometric-leaves-25.png");
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: auto;
+  order: 1;
+}
+@media screen and (min-width: 1400px) {
+  .image-gallery {
+    gap: 50px;
+  }
 }
 .image-gallery a.lightbox-image {
-  float: none;
-  display: inline-block;
   width: 100%;
-  margin: 0 0 30px;
-}
-@media screen and (min-width: 500px) {
-  .image-gallery a.lightbox-image {
-    width: 48.4%;
-    margin-bottom: 10px;
-  }
+  border: 15px solid #031C06;
+  border-radius: 25px;
+  width: fit-content;
+  height: fit-content;
 }
 @media screen and (min-width: 768px) {
   .image-gallery a.lightbox-image {
-    width: 31.9%;
-    margin-right: 1.48%;
+    width: calc(50% - 25px);
   }
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1025px) {
   .image-gallery a.lightbox-image {
-    width: 23.781%;
-    margin-right: 1.329%;
-    margin-bottom: 30px;
+    width: calc(33.33% - 25px);
   }
 }
-@media screen and (min-width: 500px) {
-  .image-gallery a.lightbox-image:nth-child(odd) {
-    margin-right: 2%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .image-gallery a.lightbox-image:nth-child(odd) {
-    margin-right: 1.48%;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .image-gallery a.lightbox-image:nth-child(odd) {
-    margin-right: 1.329%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .image-gallery a.lightbox-image:nth-child(3n+3) {
-    margin-right: 0;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .image-gallery a.lightbox-image:nth-child(3n+3) {
-    margin-right: 1.329%;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .image-gallery a.lightbox-image:nth-child(4n+4) {
-    margin-right: 0;
+@media screen and (min-width: 1400px) {
+  .image-gallery a.lightbox-image {
+    width: calc(25% - 50px);
   }
 }
 .image-gallery a.lightbox-image img {
-  border: 15px solid #FFFBF5;
+  display: block;
+  width: 100%;
+  border-radius: 8px;
 }
 
 #about {
